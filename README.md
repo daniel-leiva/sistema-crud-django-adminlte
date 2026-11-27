@@ -21,8 +21,8 @@ Aplicación web desarrollada con **Django** y la plantilla **AdminLTE 3.2.0** pa
 
 ## Contexto y estado del proyecto
 
-- **Contexto:** Proyecto académico de práctica con Django y AdminLTE que conserva su implementación original (modo `DEBUG = True` y configuración de demostración en `settings.py` y `db.py`; no preparado para producción).
-- **Estado:** Finalizado (archivado para portafolio).
+- **Contexto:** Proyecto académico de práctica con Django y AdminLTE que conserva su implementación original (modo `DEBUG = True` y configuración de demostración en `settings.py` y `db.py`). **No está preparado para entornos de producción.**
+- **Estado:** Finalizado (archivado para portafolio). El archivo `db.sqlite3` fue excluido mediante `.gitignore`; la base de datos local se genera ejecutando las migraciones de Django (`python manage.py migrate`).
 
 ## Autor
 
